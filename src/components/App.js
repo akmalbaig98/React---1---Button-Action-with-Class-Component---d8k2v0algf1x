@@ -4,7 +4,7 @@ import '../styles/App.css';
 class App extends Component {
     constructor(props) {
 		super(props);
-	    state={para:""};
+	    this.state={para:""};
 	};
 	handleClick(){
 		setState({para:"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"})
