@@ -6,11 +6,15 @@ class App extends Component {
 		super(props);
 	    this.state={para:""};
   };
+  
+
+	
+
     render() {
     	return(
     		<div id="main">
-			<p id="para">{this.state.para}</p>
-<button id="click" onClick={() => this.setState({para:"Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"})
+			{this.state.para}
+<button id="click" onClick={() => this.setState({para:<p id='para'>Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>})
 }>Click</button>
     		</div>
     	);
